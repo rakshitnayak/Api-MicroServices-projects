@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Timestamp Microservice</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+ <!--font awesome-->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <main>
+    <div class="container">
+      <h4>Hi this is Rakshit <a href="https://github.com/rakshitnayak" style="color:#fff"><i class="fab fa-github-square " ></i></a> </h4>
+      <p>
+        This is the Project for the
+        <a
+          class="links"
+          href="https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice"
+          style="color: #f4cca4"
+          >Timestamp Microservice challenge</a
+        >
+        as part of the curriculum for the Apis and Microservices Certification
+        on
+        <a
+          class="links"
+          href="https://www.freecodecamp.org/learn"
+          style="color: #f4cca4"
+          >freeCodeCamp.</a
+        >
+      </p>
+    </div>
+
+    <div class="container ">
+      <h1 style="font-weight: bolder; font-family: 'Montserrat', sans-serif;">Project name:</h1>
+      <h2 style="font-weight: lighter;;">Timestamp API</h2>
+    </div>
+
+    <hr/>
+
+    <div class="container" >
+      <h3 style="text-align: center;">Example Usage:</h3>
+      
+      <div>
+    
+      <h4>Get Current Data</h4> 
+
+      <p>To get the data for the current date, go to the route:</p>
+   <div class="alert alert-warning" role="alert"> <a href="/api/" class="alert-link">/api/</a>
+</div>
+
+      </div>
+
+      
+      <div>
+
+      <h4>Get Other Dates</h4> 
+      <p>To get the data for a specific date, add a parameter of a natural language date or a unix timestamp to the set route. Natural language dates must be written in YYYY-MM-DD formatting such as:</p>
+    <div class="alert alert-warning" role="alert" ">
+ <a href="/api/2000-09-13" class="alert-link">/api/2000-09-13</a>
+</div>
+     <p>Unix timestamps must be a valid set of numbers such as:</p>
+    <div class="alert alert-warning" role="alert">
+ <a href="/api/968803200000" class="alert-link">/api/968803200000</a>
+</div>
+      </div>
+        
+      <div>       
+         <h4>Shows Error</h4> 
+
+      <p>If you specify invalid string such as :</p>
+   <div class="alert alert-danger" role="alert"> <a href="/api/invalidstring" class="alert-link">/api/timestamp/invalidstring</a>
+</div>
+
+      </div>
+
+     
+ 
+    
+
+<hr/>
+    <div>
+      <h3 style="text-align: center";>Example Output:</h3>
+
+      <div class="alert alert-success" role="alert">
+     {
+  "unix": 968803200000,
+  "utc": "Wed, 13 Sep 2000 00:00:00 GMT"
+}
+</div>
+
+   
+
+    <div class="footer">
+      <p>By Rakshit Nayak © 2021</p>
+    </div>
+  </body>
+</main>
+</html>
