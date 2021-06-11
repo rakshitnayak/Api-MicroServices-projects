@@ -1,0 +1,65 @@
+main {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+body {
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+
+  line-height: 1.4em;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #fafafa;
+  line-height: 1.4em;
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.links {
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 120px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer p {
+  font-weight: bolder;
+  color: #e4efe7;
+}
